@@ -57,57 +57,41 @@ app.controller('gpaCtrl', function ($scope) {
             sems: [{
                     sem: '1',
                     subs: [{
-                        name: 'FUNDAMENTALS OF COMPUTING',
-                        id: 'SENG 11213',
-                        cd: 3,
-                    }, {
-                        name: 'PROGRAMMING CONCEPTS',
-                        id: 'SENG 11223',
-                        cd: 3,
-                    }, {
-                        name: 'ENGINEERING FOUNDATION',
-                        id: 'SENG 11232',
-                        cd: 2,
-                    }, {
-                        name: 'STATISTICS',
-                        id: 'SENG 11243',
-                        cd: 3,
-                    }, {
-                        name: 'DISCREET MATHEMATICS FOR COMPUTING I A',
-                        id: 'PMAT 11212',
-                        cd: 2,
-                    }, {
-                        name: 'ENGLISH FOR PROFESSIONALS',
+                        name: 'English for Social Sciences',
                         id: 'DELT 11212',
                         cd: 2,
+                    }, {
+                        name: 'Introduction to International Relations',
+                        id: 'INTS 11215',
+                        cd: 5,
+                    }, {
+                        name: 'Principles of Communication',
+                        id: 'MACO 11215',
+                        cd: 5,
+                    }, {
+                        name: 'Introduction to Sociology',
+                        id: 'SOCI 11215',
+                        cd: 5,
                     }]
                 },
                 {
                     sem: '2',
-                    subs: [{
-                        name: 'DATA STRUCTURES AND ALGORITHMS',
-                        id: 'SENG 12213',
-                        cd: 3,
+                    subs: [ {
+                        name: 'Media History and Social Trends',
+                        id: '12225',
+                        cd: 5,
                     }, {
-                        name: 'DATABASE DESIGN AND DEVELOPMENT',
-                        id: 'SENG 12223',
-                        cd: 3,
-                    }, {
-                        name: 'OBJECT ORIENTED PROGRAMMING',
-                        id: 'SENG 12233',
-                        cd: 3,
-                    }, {
-                        name: 'MANAGEMENT FOR SOFTWARE ENGINEERING I',
-                        id: 'SENG 12242',
+                        name: 'International and Regional Organizations',
+                        id: 'INTS 12232',
                         cd: 2,
                     }, {
-                        name: 'DISCREET MATHEMATICS FOR COMPUTING II B',
-                        id: 'PMAT 12212',
-                        cd: 2,
+                        name: 'Sri Lanka Society',
+                        id: 'SOCI 12225',
+                        cd: 5,
                     }, {
-                        name: 'COMMUNICATION SKILLS FOR PROFESSIONALS',
-                        id: 'DELT 12312',
-                        cd: 2,
+                        name: 'Regional Studies Contemporary South Asia',
+                        id: 'INTS 12223',
+                        cd: 3,
                     }]
                 }
             ]

@@ -101,68 +101,53 @@ app.controller('gpaCtrl', function ($scope) {
             sems: [{
                     sem: '3',
                     subs: [{
-                        name: 'COMPUTER ARCHITECTURE AND OPERATING SYSTEMS',
-                        id: 'SENG 21213',
-                        cd: 3,
+                        name: 'Classical Sociological Theory',
+                        id: 'SOCI 21414',
+                        cd: 4,
                     }, {
-                        name: 'SOFTWARE CONSTRUCTIONS',
-                        id: 'SENG 21222',
+                        name: 'Priciples of Social Anthropology',
+                        id: 'SOCI 21424',
+                        cd: 4,
+                    }, {
+                        name: 'Sociology of Gender',
+                        id: 'SOCI 21434',
+                        cd: 4,
+                    }, {
+                        name: 'Sociology of Education',
+                        id: 'SOCI 21454',
+                        cd: 4,
+                    }, {
+                        name: 'Skill Development 1 - Information Technology for Sociology',
+                        id: 'SOCI 21462',
                         cd: 2,
-                    }, {
-                        name: 'Requirement Engineering',
-                        id: 'SENG 21233',
-                        cd: 3,
-                    }, {
-                        name: 'Software Modelling',
-                        id: 'SENG 21243',
-                        cd: 3,
-                    }, {
-                        name: 'Web Application Development',
-                        id: 'SENG 21253',
-                        cd: 3,
-                    }, {
-                        name: 'Interactive Application Development',
-                        id: 'SENG 21263',
-                        cd: 3,
-                        type: 'o'
-                    }, {
-                        name: 'Management for Software Engineering II',
-                        id: 'SENG 21272',
-                        cd: 2,
-                    }, {
-                        name: 'Computer Netwokrs',
-                        id: 'SENG 24213',
-                        cd: 3,
                     }]
                 },
                 {
                     sem: '4',
                     subs: [{
-                        name: 'Software Architecture and Design',
-                        id: 'SENG 22212',
-                        cd: 3,
+                        name: 'Effective Speaking',
+                        id: 'DELT 22522',
+                        cd: 2,
                     }, {
-                        name: 'Human Computer Interaction',
-                        id: 'SENG 22223',
-                        cd: 3,
+                        name: 'Basic Social Research Methods',
+                        id: 'SOCI 22414',
+                        cd: 4,
                     }, {
-                        name: 'Software Verification and Validation',
-                        id: 'SENG 22233',
-                        cd: 3,
+                        name: 'Crime, Deviance and Society',
+                        id: 'SOCI 22424',
+                        cd: 4,
                     }, {
-                        name: 'Mobile Application Development',
-                        id: 'SENG 22243',
-                        cd: 3,
+                        name: 'Sociology of Sex and Reproductive Health',
+                        id: 'SOCI 22434',
+                        cd: 4,
                     }, {
-                        name: 'Embedded Systems Development',
-                        id: 'SENG 22253',
-                        cd: 3,
-                        type: 'o'
+                        name: 'Social Change',
+                        id: 'SOCI 22444',
+                        cd: 4,
                     }, {
-                        name: 'Mathematical Methods',
-                        id: 'PMAT 22213',
-                        cd: 3,
-                        type: 'o'
+                        name: 'Social Statistics',
+                        id: 'SOCI 22452',
+                        cd: 2,
                     }]
                 }
             ]

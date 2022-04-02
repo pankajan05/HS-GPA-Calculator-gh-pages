@@ -1,0 +1,145 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    cursor: default;
+}
+
+::selection {
+    background: #333;
+    color: #fff;
+}
+
+::-moz-selection {
+    background: #333;
+    color: #fff;
+}
+
+.nav-wrapper {
+    padding: .5em;
+}
+
+.logo{
+    height: 80%;margin-top: 0em;
+}
+
+.GPA{
+    margin-top: -0.25em;
+}
+
+.subjectTab {
+    margin-top: 2em;
+    /* font-size: 1.5em; */
+}
+
+.subjectTab .row {
+    padding: 1em;
+    margin: 0;
+    border: 1px solid #eee;
+}
+
+.subjectTab .row:nth-child(even) {
+    background: #eee;
+}
+
+.subjectTab h5,
+.subjectTab h6 {
+    margin: 0;
+    padding: .75em;
+    background: #263238;
+    color: #fff;
+}
+
+select {
+    height: 3rem;
+    text-align:center;
+}
+
+select.Green {
+    background: #b2ff59 ;
+}
+
+select.Blue {
+    background: #42a5f5 ;
+}
+
+select.Orange {
+    background: #FFE57F;
+}
+
+select.Grey {
+    background: #ddd;
+}
+
+.row .col.tab {
+    background: #fff;
+}
+
+.tab {
+    background: #3f51b5;
+}
+
+.tab a {
+    color: #333 !important;
+}
+
+.tab a.active {
+    background-color: #333 !important;
+    color: #fff!important;
+}
+
+.indicator {
+    display: none;
+    background-color: #333 !important;
+}
+
+.subjectTab .tabContent {
+    padding: 2em;
+}
+
+.semContent {
+    margin-bottom: 1em;
+    
+}
+
+.semContent .badge{
+    margin-left: 0;
+    font-size: .75em;
+}
+
+footer {
+    padding: 1em;
+    color: #fff;
+}
+
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.loader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 99999999999999999999999999999;
+}
+
+.progress {
+    top: 50%;
+    transform: translate(-50%);
+    width: 50%;
+    left:50%;
+}
+
+@media screen and (max-width: 700px) {
+    .container{
+        width: 100%;
+    }
+    .row .col {
+        padding: 0.1em .5em;
+    }
+}

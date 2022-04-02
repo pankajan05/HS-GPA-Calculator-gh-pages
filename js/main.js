@@ -157,86 +157,49 @@ app.controller('gpaCtrl', function ($scope) {
             sems: [{
                     sem: '5',
                     subs: [{
-                        id: "SENG 31212",
-                        name: "Software Quality",
+                        id: "SOCI 31414",
+                        name: "Advanced Sociological Theory",
+                        cd: 4
+                    }, {
+                        id: "SOCI 31424",
+                        name: "Rural Sociology",
+                        cd: 4
+                    }, {
+                        id: "SOCI 31434",
+                        name: "Urban Sociology",
+                        cd: 4
+                    }, {
+                        id: "SOCI 31454",
+                        name: "Political Sociology",
+                        cd: 4
+                    }, {
+                        id: "SOCI 31462",
+                        name: "Skill Development II: Writing Synopsis",
                         cd: 2
-                    }, {
-                        id: "SENG 31232",
-                        name: "Information Security",
-                        cd: 2
-                    }, {
-                        id: "SENG 31212",
-                        name: "Software Project Management",
-                        cd: 2
-                    }, {
-                        id: "SENG 31252",
-                        name: "Professional Practices",
-                        cd: 2
-                    }, {
-                        id: "SENG 31262",
-                        name: "Research Methods",
-                        cd: 2
-                    }, {
-                        id: "SENG 31272",
-                        name: "Internet of Things",
-                        cd: 2,
-                        type: 'o'
-                    }, {
-                        id: "SENG 31282",
-                        name: "Computer Network Management",
-                        cd: 2,
-                        type: 'o'
-                    }, {
-                        id: "SENG 31292",
-                        name: "Enterprise Information Systems",
-                        cd: 2,
-                        type: 'o'
-                    }, {
-                        id: "SENG 34213",
-                        name: "Systems Development Project",
-                        cd: 3
-                    }, {
-                        id: "SENG 34222",
-                        name: "Software Process",
-                        cd: 2
-                    }, {
-                        id: "SENG 31313",
-                        name: "Advanced Web Applications Development",
-                        cd: 3,
-                        type: 'n'
-                    }, {
-                        id: "SENG 31323",
-                        name: "Mobile Computing Technologies",
-                        cd: 3,
-                        type: 'm'
-                    }, {
-                        id: "SENG 31333",
-                        name: "Business Intelligence and Management Support Systems",
-                        cd: 3,
-                        type: 'd'
-                    }, {
-                        id: "SENG 31343",
-                        name: "Health Information Management",
-                        cd: 3,
-                        type: 'h'
-                    }, {
-                        id: "SENG 31353",
-                        name: "Game Development Technology",
-                        cd: 3,
-                        type: 'g'
-                    }, {
-                        id: "SENG 31363",
-                        name: "Business Systems Modelling and Optimization",
-                        cd: 3,
-                        type: 'b'
                     }]
                 },
                 {
                     sem: '6',
                     subs: [{
-                        id: "SENG 32216",
-                        name: "Internship",
-                        cd: 6
+                        id: "DELT 32522",
+                        name: "Advanced Writing and Grammar",
+                        cd: 2
+                    }, {
+                        name: 'Advanced Social Research Methods',
+                        id: 'SOCI 32414',
+                        cd: 4,
+                    }, {
+                        name: 'Social Psychology',
+                        id: 'SOCI 32424',
+                        cd: 4,
+                    }, {
+                        name: 'Industrial Sociology',
+                        id: 'SOCI 32434',
+                        cd: 4,
+                    }, {
+                        name: 'Internship',
+                        id: 'SOCI 32454',
+                        cd: 4,
                     }]
                 }
             ]

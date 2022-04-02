@@ -208,130 +208,41 @@ app.controller('gpaCtrl', function ($scope) {
             sems: [{
                     sem: '7',
                     subs: [{
-                        name: 'Software Evolution',
-                        id: 'SENG 41212',
+                        name: 'Research Skills / English Skills for Special Degress',
+                        id: 'DELT 41512',
                         cd: 2,
                     }, {
-                        name: 'Software Metrics and Measurements',
-                        id: 'SENG 41222',
+                        name: 'Sociology of Communication',
+                        id: 'SOCI 41414',
+                        cd: 4,
+                    }, {
+                        name: 'Development Sociology',
+                        id: 'SOCI 41424',
+                        cd: 4,
+                    }, {
+                        name: 'Social Problems and Modern Society',
+                        id: 'SOCI 41434',
+                        cd: 4,
+                    }, {
+                        name: 'Skill Development III',
+                        id: 'SOCI 41452',
                         cd: 2,
-                    }, {
-                        name: 'Digital Image Processing',
-                        id: 'SENG 41233',
-                        cd: 3,
-                        type: 'o'
-                    }, {
-                        name: 'Advanced Databases',
-                        id: 'SENG 41242',
-                        cd: 2,
-                        type: 'o'
-                    }, {
-                        name: 'Advanced Computer Networks',
-                        id: 'SENG 41252',
-                        cd: 2,
-                        type: 'o'
-                    }, {
-                        name: 'Speech Interfaces',
-                        id: 'SENG 41262',
-                        cd: 2,
-                        type: 'o'
-                    }, {
-                        name: 'Formal Methods',
-                        id: 'SENG 41272',
-                        cd: 2,
-                        type: 'o'
-                    }, {
-                        id: "SENG 41283",
-                        name: "Distributed and Cloud Computing",
-                        cd: 3,
-                        type: 'n'
-                    }, {
-                        id: "SENG 41293",
-                        name: "Mobile Web Application Development",
-                        cd: 3,
-                        type: 'm'
-                    }, {
-                        id: "SENG 41303",
-                        name: "Big Data Infrastructure",
-                        cd: 3,
-                        type: 'd'
-                    }, {
-                        id: "SENG 41313",
-                        name: "Health Information Systems Design and Development",
-                        cd: 3,
-                        type: 'h'
-                    }, {
-                        id: "SENG 41323",
-                        name: "Games Design, Artwork, and Programming",
-                        cd: 3,
-                        type: 'g'
-                    }, {
-                        id: "SENG 41333",
-                        name: "Computer Based Operations Management",
-                        cd: 3,
-                        type: 'b'
                     }]
                 },
                 {
                     sem: '8',
                     subs: [{
-                        name: 'Software Safety and Reliability',
-                        id: 'SENG 42212',
-                        cd: 2,
+                        name: 'Development Planning, Monitoring and Evaluation',
+                        id: 'SOCI 42414',
+                        cd: 4,
                     }, {
-                        name: 'Usability Engineering',
-                        id: 'SENG 42222',
-                        cd: 2,
-                        type: 'o'
+                        name: 'Sri Lankan Society and Culture',
+                        id: 'SOCI 42424',
+                        cd: 4,
                     }, {
-                        name: 'Software Management',
-                        id: 'SENG 42232',
-                        cd: 2,
-                        type: 'o'
-                    }, {
-                        name: 'Machine Learning',
-                        id: 'SENG 42242',
-                        cd: 2,
-                        type: 'o'
-                    }, {
-                        name: 'Computer Graphics',
-                        id: 'SENG 42252',
-                        cd: 2,
-                        type: 'o'
-                    }, {
-                        name: 'Software Engineering Research Project',
-                        id: 'SENG 43216',
-                        cd: 6,
-                    }, {
-                        id: "SENG 42273",
-                        name: "Semantic Web and Ontological Engineering",
-                        cd: 3,
-                        type: 'n'
-                    }, {
-                        id: "SENG 42283",
-                        name: "Mobile Networks",
-                        cd: 3,
-                        type: 'm'
-                    }, {
-                        id: "SENG 42293",
-                        name: "Big Data Analytics",
-                        cd: 3,
-                        type: 'd'
-                    }, {
-                        id: "SENG 42303",
-                        name: "Medical Imaging and Biomedial Signal Processing",
-                        cd: 3,
-                        type: 'h'
-                    }, {
-                        id: "SENG 42313",
-                        name: "Advanced Topics in Game Design and Animation",
-                        cd: 3,
-                        type: 'g'
-                    }, {
-                        id: "SENG 42323",
-                        name: "Business Process Engineering",
-                        cd: 3,
-                        type: 'b'
+                        name: 'Independent Dissertation',
+                        id: 'SOCI 42448',
+                        cd: 8,
                     }]
                 }
             ]
